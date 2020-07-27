@@ -3,7 +3,7 @@ import { MobileDesktopService } from '../services/mobile-desktop.service';
 import { Subscription } from 'rxjs';
 
 @Directive({
-  selector: '[appMobileOnly]'
+  selector: '[mobileOnly]'
 })
 export class MobileOnlyDirective implements OnDestroy {
   private hasView = false;
